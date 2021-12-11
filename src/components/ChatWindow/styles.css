@@ -1,0 +1,106 @@
+.chatWindow {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-header {
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-header-info {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chat-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.chat-name {
+  font-size: 17px;
+  color: #000;
+}
+
+.chatWindow-headerbuttons {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.chat-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all ease 0.3s;
+}
+
+.chat-body {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #e5ddd5;
+  background-size: contain;
+  background-position: center;
+  background-image: url("https://cdn.wallpapersafari.com/42/84/KFSVc0.jpg");
+}
+
+.chat-footer {
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+
+.chat-footer-prev {
+  display: flex;
+  margin: 0 15px;
+}
+
+.chat-footer-inputarea {
+  flex: 1;
+}
+
+.chat-input {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #4a4a4a;
+  padding-left: 15px;
+}
+
+.chat-emojiarea {
+  height: 0px;
+  overflow-y: hidden;
+  transition: all ease 0.3s;
+}
+
+.chat-footer-next {
+  display: flex;
+  margin: 0 15px;
+}
+
+aside.emoji-picker-react {
+  width: auto;
+  background: none;
+}
+
+.emoji-picker-react .emojo-group::before {
+  background: none;
+}
